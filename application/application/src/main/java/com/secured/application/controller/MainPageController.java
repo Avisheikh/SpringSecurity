@@ -20,4 +20,9 @@ public class MainPageController {
         return "main.html";
     }
 
+    @GetMapping("/hello")
+    public String hello(){
+        return "Hello!";
+    }
+
 }
